@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string-array name="pets">
+        <item>cat1</item>
+        <item>cat2</item>
+        <item>cat3</item>
+        <item>cat4</item>
+        <item>cat5</item>
+        <item>cat6</item>
+    </string-array>
+    <string-array name="desc">
+        <item>first cat</item>
+        <item>second cat</item>
+        <item>third cat</item>
+        <item>fourth cat</item>
+        <item>fifth cat</item>
+        <item>sixth cat</item>
+    </string-array>
+</resources>

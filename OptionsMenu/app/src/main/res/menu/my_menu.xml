@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="file1"
+          android:id="@+id/file1"
+          app:showAsAction="always" ></item>
+        <!--to keep in actionbar-->
+
+    <item android:title="file2"
+        android:id="@+id/file2"
+        app:showAsAction="never"></item>
+    <item android:title="file3"
+        android:id="@+id/file3">
+        <menu>
+            <item android:title="file3a"
+                android:id="@+id/file3a"></item>
+            <item android:title="file3b"
+                android:id="@+id/file3b"></item>
+        </menu>
+    </item>
+    <item android:title="file4"
+        android:id="@+id/file4"></item>
+</menu>
